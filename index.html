@@ -12,12 +12,16 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <nav
       class="navbar navbar-expand-lg navbar-light"
-      style="background-color: #3e3c3c; width: 100%; font-family: 'Inter', sans-serif"
+      style="
+        background-color: #3e3c3c;
+        width: 100%;
+        font-family: 'Inter', sans-serif;
+      "
     >
       <div class="container-fluid">
         <a class="navbar-brand text-light ms-5" href="#">Khaled</a>
@@ -29,7 +33,7 @@
           aria-controls="navbarNavAltMarkup"
           aria-expanded="false"
           ria-label="Toggle navigation"
-          style="border:none; outline:none;"
+          style="border: none; outline: none"
         >
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -48,7 +52,7 @@
       </div>
     </nav>
     <div
-      class="header row pt-5 pb-5 align-items-center"
+      class="row pt-5 pb-5 align-items-center d-flex flex-row"
       style="
         height: 100vh;
         background-color: #1c1a19;
@@ -58,7 +62,7 @@
         background-size: 500px;
       "
     >
-      <div class="col-1">
+      <!-- <div class="col-12">
         <nav class="nav flex-column nav-justified align-items-center">
           <a class="nav-link" href="#"
             ><img src="Assets/github.png" alt="github logo"
@@ -76,19 +80,42 @@
             ><img src="Assets/medium.png" alt="medium logo"
           /></a>
         </nav>
-      </div>
-      <div class="col">
-        <h1 class="col-4 display-2" style="color: #f55800; font-family: 'Crete Round', serif">
-          Hey There. I’m Teke
+      </div> -->
+      <div class="ps-5 col-12 order-5 d-md-flex flex-column col-md-3">
+        <h1
+          class="display-2"
+          style="color: #f55800; font-family: 'Crete Round', serif"
+        >
+          Hey There.<br />
+          I’m Teke
         </h1>
         <h2 class="text-white fs-3" style="font-family: 'Inter', sans-serif">
           I’am a Software Developer
         </h2>
-        <p class="text-white col-4" style="font-family: 'Inter', sans-serif">
+        <p class="text-white" style="font-family: 'Inter', sans-serif">
           I can help you build a product , feature or website Look through some
           of my work and experience! If you like what you see and have a project
           you need coded, don’t hestiate to contact me.
         </p>
+        <div
+          class="col-2 col-md-3 order-md-first bg-danger d-md-flex-column col-md-5 flex"
+        >
+          <a class="nav-link me-3" href="#"
+            ><img src="Assets/github.png" alt="github logo"
+          /></a>
+          <a class="nav-link me-3" href="#"
+            ><img src="Assets/LinkedinIcon.png" alt="linkedin logo"
+          /></a>
+          <a class="nav-link me-3" href="#"
+            ><img src="Assets/angelList.png" alt="angel list logo"
+          /></a>
+          <a class="nav-link me-3" href="#"
+            ><img src="Assets/twitter.png" alt="twitter logo"
+          /></a>
+          <a class="nav-link me-3" href="#"
+            ><img src="Assets/medium.png" alt="medium logo"
+          /></a>
+        </div>
       </div>
     </div>
     <script src="js/bootstrap.min.js"></script>
