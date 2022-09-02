@@ -1,0 +1,10 @@
+.navbar-toggler-icon .navbar-toggler {
+  color: rgb(195, 32, 32) !important ;
+  outline: none;
+}
+.navbar-toggle span {
+  color: rgb(116, 26, 26) !important ;
+}
+#toggle-icon {
+  color: rgb(107, 11, 11) !important ;
+}

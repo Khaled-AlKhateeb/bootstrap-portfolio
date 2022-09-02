@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-lg navbar-light"
+      style="
+        background-color: #3e3c3c;
+        width: 100%;
+        font-family: 'Inter', sans-serif;
+      "
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand text-light ms-5" href="#">Khaled</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          ria-label="Toggle navigation"
+          style="border: none"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto me-5">
+            <a 
+            class="nav-link active text-light" 
+            aria-current="page"       
+            href="#">Portfolio</a>
+            <a class="nav-link text-light" href="#">About</a>
+            <a class="nav-link text-light" href="#">Contact</a>
+            <a class="nav-link text-light" href="#">
+              <img src="Assets/icon-mail.png" alt="massege icon"/>
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <section
+      class="main-header container-fluid pt-5 ps-5 d-md-flex align-items-center"
+    >
+      <div class="row">
+        <div class="col-11 col-sm-5 order-md-1 ps-md-5">
+          <h1
+            class="display-2"
+            style="color: #f55800; font-family: 'Crete Round', serif"
+          >
+            Hey There.<br />
+            I’m Teke
+          </h1>
+          <h2 class="text-white fs-3" style="font-family: 'Inter', sans-serif">
+            I’am a Software Developer
+          </h2>
+          <p class="text-white" style="font-family: 'Inter', sans-serif">
+            I can help you build a product , feature or website Look through some
+            of my work and experience! If you like what you see and have a project
+            you need coded, don’t hestiate to contact me.
+          </p>
+        </div>
+        <div
+          class="col-md-1 d-md-flex flex-md-column justify-content-center"
+        >
+          <a class="p-2" href="#">
+            <img src="Assets/github.png" alt="github logo"/>
+          </a>
+          <a class="p-2" href="#">
+            <img src="Assets/LinkedinIcon.png" alt="linkedin logo"/>
+          </a>
+          <a class="p-2" href="#">
+            <img src="Assets/angelList.png" alt="angel list logo"/>
+          </a>
+          <a class="p-2" href="#">
+            <img src="Assets/twitter.png" alt="twitter logo"/>
+          </a>
+          <a class="p-2" href="#">
+            <img src="Assets/medium.png" alt="medium logo"/>
+          </a>
+        </div>
+      </div>
+    </section>
+    <section class="container-fluid p-5">
+      <div class="row">
+        <h2 class="col-md-4 text-sm-center text-md-start col-12" style="font-family:'Crete Round', sans-serif;">My Recent Works</h2>
+        <hr class="col-md-8 col-sm-12 mt-3" style="background-color: #212121; height: 2px;"></hr>
+      </div>
+      <div class="row mt-5">
+        <div class="column-left col-12 col-md-7 ">
+          <img class="img-fluid" src="Assets/multipost-stories.jpeg" alt="">
+        </div>
+        <div class="column-right col-12 col-md-5 pt-2">
+          <h2>Multi-Post Stories</h2>
+          <p>
+            A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.
+          </p>
+          <div class="buttons">
+            <button type="button" class="btn btn-light" style="border-radius: 0; border: 1px solid;">css</button>
+            <button type="button" class="btn btn-light" style="border-radius: 0; border: 1px solid;">html</button>
+            <button type="button" class="btn btn-light" style="border-radius: 0; border: 1px solid;">Bootstrap</button>
+            <button type="button" class="btn btn-light" style="border-radius: 0; border: 1px solid;">Ruby</button>
+          </div>  
+          <button type="button" class="btn btn-light mt-4 text-light" style="background-color:#f55800; border-radius: 0">See Project</button>
+        </div>
+      </div>
+      <div class="row gx-5 mt-4 d-flex justify-content-around">
+        <div 
+          class="col-md-6 col-xl-4 col-12 d-flex ms-3 mt-3 justify-content-center align-items-end p-0" 
+          style="background-image:url(Assets/Img-Placeholder1.png); background-repeat: no-repeat; width: 370px; height: 435px;"> 
+          <button 
+            class="btn text-white container-fluid" 
+            style="
+              background-color: #f55800; 
+              border-radius: 0; 
+              font-family: 'Inter',sans-serif;">
+            See Project
+          </button>
+        </div>
+        <div 
+          class="col-md-6 col-xl-4 col-12 d-flex flex-column ms-3 mt-3 justify-content-end p-3"
+          style="background-image:url(Assets/Img-Placeholder2.png);background-repeat: no-repeat; width: 370px; height: 435px ;"
+        >
+          <h2 class="text-white mb-4" style="font-family: 'Crete Round', serif;">
+            Data Dashboard Healthcare
+          </h2>
+          <p class="text-white mb-4" style="font-family: 'Inter',sans-serif;">
+            A daily selection of privately personalized reads; no accounts orsign-ups required. has been the industry's standard
+          </p>
+          <div>
+            <button 
+              class="btn text-white bg-secondary" style="border-radius: 0;">
+              html
+            </button>
+            <button 
+              class="btn text-white bg-secondary" style="border-radius: 0;">
+              bootstrap
+            </button>
+            <button 
+              class="btn text-white bg-secondary" style="border-radius: 0;">
+              ruby
+            </button>
+          </div>
+        </div>
+        <div 
+          class="col-md-6 col-xl-4 col-12 d-flex flex-column ms-3 mt-3 justify-content-end p-3"
+          style="background-image:url(Assets/Img-Placeholder3.png);background-repeat: no-repeat; width: 370px; height: 435px ;"
+        >
+          <h2 class="text-white mb-4" style="font-family: 'Crete Round', serif;">
+            Website Portfolio
+          </h2>
+          <p class="text-white mb-4" style="font-family: 'Inter',sans-serif;">
+            A daily selection of privately personalized reads; no accounts orsign-ups required. has been the industry's standard
+          </p>
+          <div>
+            <button 
+              class="btn text-white bg-secondary" style="border-radius: 0;">
+              html
+            </button>
+            <button 
+              class="btn text-white bg-secondary" style="border-radius: 0;">
+              bootstrap
+            </button>
+            <button 
+              class="btn text-white bg-secondary" style="border-radius: 0;">
+              ruby
+            </button>
+          </div>
+        </div>
+        <div 
+          class="col-md-6 col-xl-4 col-12 d-flex flex-column ms-3 mt-3 justify-content-end p-3"
+          style="background-image:url(Assets/Img-Placeholder4.png);background-repeat: no-repeat; width: 370px; height: 435px ;"
+        >
+          <h2 class="text-white mb-4" style="font-family: 'Crete Round', serif;">
+            Profesional Art Printing Data More
+          </h2>
+          <p class="text-white mb-4" style="font-family: 'Inter',sans-serif;">
+            A daily selection of privately personalized reads; no accounts orsign-ups required. has been the industry's standard
+          </p>
+          <div>
+            <button 
+              class="btn text-white bg-secondary" style="border-radius: 0;">
+              html
+            </button>
+            <button 
+              class="btn text-white bg-secondary" style="border-radius: 0;">
+              bootstrap
+            </button>
+            <button 
+              class="btn text-white bg-secondary" style="border-radius: 0;">
+              ruby
+            </button>
+          </div>
+        </div>
+        <div 
+          class="col-md-6 col-xl-4 col-12 d-flex flex-column ms-3 mt-3 justify-content-end p-3"
+          style="background-image:url(Assets/Img-Placeholder5.png);background-repeat: no-repeat; width: 370px; height: 435px ;"
+        >
+          <h2 class="text-white mb-4" style="font-family: 'Crete Round', serif;">
+            Data Dashboard Healthcare
+          </h2>
+          <p class="text-white mb-4" style="font-family: 'Inter',sans-serif;">
+            A daily selection of privately personalized reads; no accounts orsign-ups required. has been the industry's standard
+          </p>
+          <div>
+            <button 
+              class="btn text-white bg-secondary" style="border-radius: 0;">
+              html
+            </button>
+            <button 
+              class="btn text-white bg-secondary" style="border-radius: 0;">
+              bootstrap
+            </button>
+            <button 
+              class="btn text-white bg-secondary" style="border-radius: 0;">
+              ruby
+            </button>
+          </div>
+        </div>
+        <div 
+          class="col-md-6 col-xl-4 col-12 d-flex flex-column ms-3 mt-3 justify-content-end p-3"
+          style="background-image:url(Assets/Img-Placeholder6.png);background-repeat: no-repeat; width: 370px; height: 435px ;"
+        >
+          <h2 class="text-white mb-4" style="font-family: 'Crete Round', serif;">
+            Website Portfolio
+          </h2>
+          <p class="text-white mb-4" style="font-family: 'Inter',sans-serif;">
+            A daily selection of privately personalized reads; no accounts orsign-ups required. has been the industry's standard
+          </p>
+          <div>
+            <button 
+              class="btn text-white bg-secondary" style="border-radius: 0;">
+              html
+            </button>
+            <button 
+              class="btn text-white bg-secondary" style="border-radius: 0;">
+              bootstrap
+            </button>
+            <button 
+              class="btn text-white bg-secondary" style="border-radius: 0;">
+              ruby
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="about-section p-5 bg-dark">
+      <div class="row d-flex justify-content-start mx-auto mt-5">
+        <div class="col-12 col-md-6">
+          <h2 class="text-light mb-5 fs-1">About me</h2>
+          <p class="text-light col-10">Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
+          <button type="button" class="btn btn-light mt-4 mb-5 text-light" style="background-color:#f55800; border-radius: 0">Get My Resume</button>
+        </div>
+        <div class="col-12 col-md-6">
+          <img class="img-fluid d-flex" style="width: 90%;" src="Assets/illustration-about.png" alt="">
+        </div>
+      </div>
+      <hr class="col-md-11 mx-auto col-sm-12 mt-5" style="background-color: #fff; height: 3px;"></hr>
+      <div class="row mt-5">
+        <div class="col-12 justify-content-center col-md-3 mx-auto d-flex">     
+          <ul class="text-light list-unstyled">
+            <img class="me-3 img-fluid" src="Assets/icon-1.png" alt="">Language
+        <li class="mb-3 mt-3 text-center text-md-start ms-1">Javascript</li>
+        <li class="mb-3 mt-3 text-center text-md-start ms-1">Ruby</li>
+        <li class="mb-3 mt-3 text-center text-md-start ms-1">Html</li>
+        <li class="mb-3 mt-3 text-center text-md-start ms-1">Css</li>
+        </ul>
+        </div>
+        <div class="col-12 justify-content-center col-md-3 mx-auto d-flex"><ul class="text-light list-unstyled"><img class="me-3 img-fluid" src="Assets/icon-2.png" alt="">Frameworks
+          <li class="mb-3 mt-3 text-center text-md-start ms-1">Bootstrap</li>
+          <li class="mb-3 mt-3 text-center text-md-start ms-1">Ruby on Rails</li>
+          <li class="mb-3 mt-3 text-center text-md-start ms-1">RSPec</li>
+          <li class="mb-3 mt-3 text-center text-md-start ms-1">CapyBara</li>
+          <li class="mb-3 mt-3 text-center text-md-start ms-1">Selenium</li>
+        </ul>
+      </div>
+      <div class="col-12 justify-content-center col-md-3 mx-auto d-flex"><ul class="text-light list-unstyled"><img class="me-3 img-fluid" src="Assets/icon-2.png" alt="">Frameworks
+        <li class="mb-3 mt-3 text-center text-md-start ms-1">Bootstrap</li>
+        <li class="mb-3 mt-3 text-center text-md-start ms-1">Ruby on Rails</li>
+        <li class="mb-3 mt-3 text-center text-md-start ms-1">RSPec</li>
+        <li class="mb-3 mt-3 text-center text-md-start ms-1">CapyBara</li>
+        <li class="mb-3 mt-3 text-center text-md-start ms-1">Selenium</li>
+      </ul>
+    </div>
+      
+      </div>
+    </section>
+    <section class="container-fluid  p-5">
+      <div class="row ">
+        <h2 
+          class="col-md-4  col-10  d-flex align-items-center text-md-start text-center"
+          style="font-family: 'Inter', sans-serif;
+          font-weight: 700; color: #262626"
+          >
+          I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.
+        </h2>
+        <div class="form-group mt-5 col-md-8 d-flex flex-column align-items-center" style="font-family: 'Roboto', sans-serif">
+          <input 
+            type="text" class="col-11 p-2 mb-4" placeholder="First Name"
+            style="border: none; border-bottom: 1px solid #dbd8d7"
+            required
+          >
+          <input 
+            type="text" class="col-11 p-2 mb-4" placeholder="Last Name"
+            style="border: none; border-bottom: 1px solid #dbd8d7"
+            required
+          >
+          <input 
+            type="text" class="col-11 p-2 mb-4" placeholder="Email address"
+            style="border: none; border-bottom: 1px solid #dbd8d7"
+            required
+          >
+          <textarea class="col-11 p-3" name="" id="" cols="30" rows="10" 
+          placeholder="Enter text here"
+          style="background-color: #fbf8f7;
+          border: none"></textarea>
+          <button 
+            class="btn mt-2 p-2 col-3 text-white align-self-md-start offset-1" style="background-color: #f55800; border-radius: 0;">Get in touch
+          </button>
+        </div>
+      </div>
+    </section>
+    <hr class="col-12 mx-auto col-sm-12 mt-5" style="background-color: #fff; height: 3px;"></hr>
+    <footer
+      class="d-flex justify-content-center"
+    >
+      <a class="p-3" href="#">
+        <img src="Assets/github-dark-icon.png" alt="github logo"/>
+      </a>
+      <a class="p-3" href="#">
+        <img src="Assets/linkedin-dark-icon.png" alt="linkedin logo"/>
+      </a>
+      <a class="p-3" href="#">
+        <img src="Assets/angellist-dark-icon.png" alt="angel list logo"/>
+      </a>
+      <a class="p-3" href="#">
+        <img src="Assets/twitter-dark-icon.png" alt="twitter logo"/>
+      </a>
+      <a class="p-3" href="#">
+        <img src="Assets/medium-dark-icon.png" alt="medium logo"/>
+      </a>
+    </footer>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
